@@ -1,0 +1,26 @@
+{
+    "administrador":[
+        {"id":1, "login":"00000", "senha":"administrador1", "nome":"administrador1", "cpf":"000.777.111-11", "dataNascimento":"11/11/1111", "email":"administrador1@gmail.com", "celular":"65411-2222"},
+        {"id":2, "login":"00001", "senha":"administrador2", "nome":"administrador2", "cpf":"000.111.222-11", "dataNascimento":"11/11/2222", "email":"administrador2@gmail.com", "celular":"10001-2362"}
+    ],
+
+    "medicos":[
+        {"id":1, "login":"12345", "senha":"medico1", "nome":"jose da silva", "cpf":"111.111.111-11", "dataNascimento":"11/11/1111", "email":"josedasilva@gmail.com", "celular":"11111-2222", "cargo":"medico", "crm":"121212", "especialidade":"neurologista", "uf":"mg"},
+        {"id":2, "login":"12346", "senha":"medico2", "nome":"maria de sousa", "cpf":"122.111.222-11", "dataNascimento":"11/11/2222", "email":"mariadesousa@gmail.com", "celular":"11111-2362", "cargo":"medico", "crm":"121313", "especialidade":"cardiologista", "uf":"mg"}
+    ],
+
+    "enfermeiros":[
+        {"id":1, "login":"21234", "senha":"enfermeiro1", "nome":"joão da silva", "cpf":"222.111.111-11", "dataNascimento":"11/12/1111", "email":"joaodasilva@gmail.com", "celular":"12211-2222", "cargo":"enfermeiro", "cip":"121752"},
+        {"id":2, "login":"21235", "senha":"enfermeiro2", "nome":"roberta de sousa", "cpf":"333.111.222-11", "dataNascimento":"12/11/2222", "email":"robertadesousa@gmail.com", "celular":"12111-2362", "cargo":"enfermeiro", "cip":"124978"}
+    ],
+
+    "recepcionistas":[
+        {"id":1, "login":"55234", "senha":"recepcionista1", "nome":"fernanda da silva", "cpf":"222.122.111-11", "dataNascimento":"11/12/1441", "email":"fernandadasilva@gmail.com", "celular":"18511-2222", "cargo":"recepcionista"},
+        {"id":2, "login":"21555", "senha":"recepcionista2", "nome":"recepcionista de sousa", "cpf":"333.122.222-11", "dataNascimento":"12/11/2862", "email":"recepcionistadesousa@gmail.com", "celular":"12671-2362", "cargo":"recepcionista"}
+    ],
+
+    "medicamentos":[
+
+    ]
+
+}
