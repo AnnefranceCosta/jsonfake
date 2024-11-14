@@ -1,2 +1,2 @@
 # jsonfake
-Repositório para criação de backend fake da disciplina de Linguagem de programação 2 onde será trabalhada principalmente a parte front-end do sistema trabalhado na disciplina.
+Repositório destinado à criação de um backend simulado para a disciplina de Linguagem de Programação 2, com foco no desenvolvimento do front-end do sistema em estudo.
