@@ -14,11 +14,6 @@
         {"id":2, "login":"21235", "senha":"enfermeiro2", "nome":"roberta de sousa", "cpf":"333.111.222-11", "dataNascimento":"12/11/2222", "email":"robertadesousa@gmail.com", "celular":"12111-2362", "cargo":"enfermeiro", "cip":"124978"}
     ],
 
-    "recepcionistas":[
-        {"id":1, "login":"55234", "senha":"recepcionista1", "nome":"fernanda da silva", "cpf":"222.122.111-11", "dataNascimento":"11/12/1441", "email":"fernandadasilva@gmail.com", "celular":"18511-2222", "cargo":"recepcionista"},
-        {"id":2, "login":"21555", "senha":"recepcionista2", "nome":"recepcionista de sousa", "cpf":"333.122.222-11", "dataNascimento":"12/11/2862", "email":"recepcionistadesousa@gmail.com", "celular":"12671-2362", "cargo":"recepcionista"}
-    ],
-
     "medicamentos":[
         {"id":1, "nome":"paracetamol", "tarja":"preta", "dados":"000"}
     ]
