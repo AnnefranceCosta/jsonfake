@@ -20,7 +20,7 @@
     ],
 
     "medicamentos":[
-
+        {"id":1, "nome":"paracetamol", "tarja":"preta", "dados":"000"}
     ]
 
 }
