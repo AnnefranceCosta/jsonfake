@@ -9,14 +9,93 @@
         {"id":2, "login":"12346", "senha":"medico2", "nome":"maria de sousa", "cpf":"122.111.222-11", "dataNascimento":"11/11/2222", "email":"mariadesousa@gmail.com", "celular":"11111-2362", "cargo":"medico", "crm":"121313", "especialidade":"cardiologista", "uf":"mg"}
     ],
 
-    "pacientes":
-    [
-        {"id":1, "nome":"Rosa Silva", "cpf":"000.777.111-88", "dataNascimento":"11/04/1111", "genero":"feminino", "numeroCarteirinhaSUS":"78787878", "celular":"11111-2562", "telefoneFixo":"9595-6363", "email":"rosadasilva@gmail.com", "profissao":"fisioterapeuta", "religiao":"catolica", "convenio":"Saude Med", "numeroCarteirinhaConvenio":"87878787", "logradouro":"Avenida Rui Barbosa", "numero":"380", "complemento":"casa 1", "bairro":"cidade do sol", "cidade":"Ubá", "estado":"MG", "cep":"65894-789"},
-        {"id":2, "nome":"Gael Fernandes", "cpf":"000.447.111-88", "dataNascimento":"12/09/1111", "genero":"masculino", "numeroCarteirinhaSUS":"75757575", "celular":"33311-2533", "telefoneFixo":"8686-6363", "email":"ggaelfernandes@gmail.com", "profissao":"motorista", "religiao":"judeu", "convenio":"Saude Med", "numeroCarteirinhaConvenio":"00000333", "logradouro":"Rua Augusto", "numero":"380", "complemento":"apto 401", "bairro":"Altos", "cidade":"Muriaé", "estado":"AL", "cep":"99994-789"}
+    "enfermeiros":[
+        {"id":1, "login":"21234", "senha":"enfermeiro1", "nome":"joão da silva", "cpf":"222.111.111-11", "dataNascimento":"11/12/1111", "email":"joaodasilva@gmail.com", "celular":"12211-2222", "cargo":"enfermeiro", "cip":"121752"},
+        {"id":2, "login":"21235", "senha":"enfermeiro2", "nome":"roberta de sousa", "cpf":"333.111.222-11", "dataNascimento":"12/11/2222", "email":"robertadesousa@gmail.com", "celular":"12111-2362", "cargo":"enfermeiro", "cip":"124978"}
     ],
 
-    "medicamentos":[
-        {"id":1, "nome":"paracetamol", "tarja":"preta", "dados":"000"}
-    ]
+    "recepcionistas":[
+        {"id":1, "login":"55234", "senha":"recepcionista1", "nome":"fernanda da silva", "cpf":"222.122.111-11", "dataNascimento":"11/12/1441", "email":"fernandadasilva@gmail.com", "celular":"18511-2222", "cargo":"recepcionista"},
+        {"id":2, "login":"21555", "senha":"recepcionista2", "nome":"recepcionista de sousa", "cpf":"333.122.222-11", "dataNascimento":"12/11/2862", "email":"recepcionistadesousa@gmail.com", "celular":"12671-2362", "cargo":"recepcionista"}
+    ],
+    "medicameentos":[
+        {
+          "id": 1,
+          "nomeMedicamento": "Paracetamol",
+          "quantidade": 100,
+          "dosagem": "500mg",
+          "formaFarmaceutica": "Comprimido",
+          "categoria": "Analgésicos",
+          "tarja": "Vermelha",
+          "lote": "L001"
+        },
+        {
+          "id": 2,
+          "nomeMedicamento": "Amoxicilina",
+          "quantidade": 50,
+          "dosagem": "250mg",
+          "formaFarmaceutica": "Cápsula",
+          "categoria": "Antibióticos",
+          "tarja": "Antibiótico",
+          "lote": "L002"
+        },
+        {
+          "id": 3,
+          "nomeMedicamento": "Ibuprofeno",
+          "quantidade": 75,
+          "dosagem": "200mg",
+          "formaFarmaceutica": "Comprimido",
+          "categoria": "Anti-inflamatórios",
+          "tarja": "Sem Tarja",
+          "lote": "L003"
+        }
+    ],
 
+    "lotes":[
+        {
+          "id": 1,
+          "quantidadeEstoque": 500,
+          "fornecedor": "Farmacêutica A",
+          "dataFabricacao": "2024-01-10",
+          "dataValidade": "2025-01-10"
+        },
+        {
+          "id": 2,
+          "quantidadeEstoque": 300,
+          "fornecedor": "Farmacêutica B",
+          "dataFabricacao": "2023-12-05",
+          "dataValidade": "2024-12-05"
+        },
+        {
+          "id": 3,
+          "quantidadeEstoque": 200,
+          "fornecedor": "Farmacêutica C",
+          "dataFabricacao": "2023-11-20",
+          "dataValidade": "2024-11-20"
+        }
+    ],
+
+    "categoriaMedicamentos":[
+        {
+          "id": 1,
+          "nomeCategoria": "Analgésicos",
+          "descricao": "Medicamentos usados para aliviar dores leves e moderadas."
+        },
+        {
+          "id": 2,
+          "nomeCategoria": "Antibióticos",
+          "descricao": "Substâncias que combatem bactérias e infecções."
+        },
+        {
+          "id": 3,
+          "nomeCategoria": "Anti-inflamatórios",
+          "descricao": "Medicamentos usados para reduzir inflamações e dores."
+        },
+        {
+          "id": 4,
+          "nomeCategoria": "Antialérgicos",
+          "descricao": "Medicamentos usados para tratar alergias."
+        }
+      ]
+      
 }
