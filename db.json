@@ -26,5 +26,21 @@
       "nomeCategoria": "Analgésicos",
       "descricao": "Medicamentos usados para aliviar dores leves e moderadas."
     }
-  ]
+  ],
+    "funcionarios": [
+    {
+      "id": 1,
+      "nomeFuncionario": "João da Silva",
+      "cpf": "123.456.789-00",
+      "dataNascimento": "1990-05-15",
+      "email": "joao.silva@example.com",
+      "logradouro": "Rua das Flores",
+      "numero": 123,
+      "complemento": "Apto 101",
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    }
+    ]
 }
