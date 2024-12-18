@@ -42,5 +42,28 @@
       "estado": "SP",
       "cep": "01000-000"
     }
-    ]
+    ],
+  {
+  "pacientes": [
+    {
+      "id": 1,
+      "nomePaciente": "Maria Oliveira",
+      "cpf": "123.456.789-00",
+      "dataNascimento": "1985-03-25",
+      "genero": "Feminino",
+      "carteirinhaSUS": "123456789012345",
+      "email": "maria.oliveira@example.com",
+      "telefoneCelular": "(11) 91234-5678",
+      "contatoEmergencia": "(11) 99876-5432",
+      "profissao": "Professora",
+      "religiao": "Católica",
+      "logradouro": "Rua das Palmeiras",
+      "numero": 45,
+      "complemento": "Casa",
+      "bairro": "Jardim das Acácias",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "cep": "20000-000"
+    }
+  ]
 }
